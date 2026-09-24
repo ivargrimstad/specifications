@@ -25,11 +25,12 @@ This release...
 
 
 # Compatible Implementations
-* 
+* TBD
 
+<!--
 # Ballots
 ## Creation and Plan Review
-<!--
+
 The Specification Committee Ballot concluded successfully on yyyy-MM-dd with the following results.
 
 | Representative                       | Representative for:   | Vote    |
