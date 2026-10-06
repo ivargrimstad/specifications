@@ -9,7 +9,7 @@ Jakarta CRaC defines how Jakarta EE runtimes take part in JVM checkpoint and res
 The specification covers two ways of creating a checkpoint and restoring from it:
 
 * **Automatic checkpoint**. The checkpoint is taken without user involvement, directly after the application server has been loaded and right before the application is loaded. Subsequent starts restore from this snapshot, so the server initialization cost is paid only once.
-* **Manual checkpoint**. The user triggers the checkpoint from outside the JVM, for example with jcmd. The application server implements the CRaC Resource interface and acts as the single entry point for the JVM.
+* **Manual checkpoint**. The user triggers the checkpoint from outside the JVM, for example with `jcmd`. The application server implements the CRaC Resource interface and acts as the single entry point for the JVM.
 
 The notification procedure works in two steps. When a checkpoint is triggered, the JVM calls `beforeCheckpoint()` on the application server's Resource implementation. The server then informs all of its own critical resources, such as file handles and socket connections, so they can move into a safe state, for example by closing sockets and files. This is done through CDI events and annotations. After a restore, the JVM calls `afterRestore()` on the server, which in turn notifies the same resources through the same mechanism so they are available again when the application resumes.
 
