@@ -13,7 +13,7 @@ This release...
 
 ### Removals, deprecations, or backwards incompatible changes
 <!-- List here -->
-* n/a
+* **N/A**
 
 ### Minimum Java SE Version
 <!-- Specify the minimum required Java SE version for this specification -->
