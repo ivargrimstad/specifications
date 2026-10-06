@@ -1,7 +1,7 @@
 ---
 title: "Jakarta CRaC 1.0 (Under Development)"
-date: 2026-05-24
-summary: "Release aligned with Jakarta EE 12"
+date: 2026-10-05
+summary: "The first release of Jakarta CRaC"
 ---
 
 Jakarta CRaC defines how Jakarta EE runtimes take part in JVM checkpoint and restore, so that an application can be restored from a snapshot instead of starting from scratch. The goal is to cut startup time substantially while keeping applications correct and portable across compliant application servers.
