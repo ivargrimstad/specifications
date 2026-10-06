@@ -21,7 +21,7 @@ This release...
 
 # Details
 
-* [Jakarta CRaC 1.0 Release Record]()
+* Jakarta CRaC 1.0 Release Record <!--- * [Jakarta CRaC 1.0 Release Record]() -->
 
 
 # Compatible Implementations
